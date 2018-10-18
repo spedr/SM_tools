@@ -1,0 +1,12 @@
+Instagram
+	coleta de postagens por perfil (coleta de links)
+	coleta de postagens por hashtag (tempo real/coletas de links)
+	transformação desses links em dados (json/csv/jpg/png)
+
+Twitter
+	coleta de tweets por termos de busca (hashtags, keywords etc) em uma faixa de tempo (até 9 dias/precisa de chave)
+	coleta de tweets por perfil (não precisa de chave/dados vem mais limitados)
+	processador básico de tweets (ordenação por números de RTs, volume de dados por faixa de tempo)
+	processador de texto em tweets (remoção de stopwords, geração do ranking de palavras pra tagcloud)
+	gerador de HTML com embedded tweets (requer que os dados coletados tenham ID atrelado)
+	processador de localização (datado, requer dados antigos que contém tweet[user][time_zone]
